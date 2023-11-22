@@ -1,0 +1,15 @@
+html {
+  color: #612406;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  padding: 1.5rem;
+  background-color: #fbf7e3;
+  display: flex;
+  border-radius: 30px;
+}
+
+.sectionText {
+  margin-left: 1rem;
+}

@@ -1,0 +1,47 @@
+html {
+  color: #612406;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  align-items: center;
+  background-color: #fbf7e3;
+  height: 150px;
+}
+
+div img {
+  width: 30%;
+}
+
+.link,
+.shop {
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  margin-block: auto;
+  width: 180px;
+  height: 60px;
+  background-color: #f3df85;
+  border-radius: 50px;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #612406;
+}
+
+.shop {
+  width: 240px;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  height: 100px;
+}
